@@ -1,0 +1,385 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6FBDC61F-841F-4DFC-8201-EDB18848AABC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CSharpRestaurantTrainingApp</RootNamespace>
+    <AssemblyName>CSharpRestaurantTrainingApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AhiPoke.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AhiPoke.Designer.cs">
+      <DependentUpon>AhiPoke.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BestBeginningsAppetizerCombo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BestBeginningsAppetizerCombo.Designer.cs">
+      <DependentUpon>BestBeginningsAppetizerCombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BoneInWings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BoneInWings.Designer.cs">
+      <DependentUpon>BoneInWings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BonelessWings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BonelessWings.Designer.cs">
+      <DependentUpon>BonelessWings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChickenLettuceWraps.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChickenLettuceWraps.Designer.cs">
+      <DependentUpon>ChickenLettuceWraps.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChickenPotStickers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChickenPotStickers.Designer.cs">
+      <DependentUpon>ChickenPotStickers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChickenTortillaSoup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChickenTortillaSoup.Designer.cs">
+      <DependentUpon>ChickenTortillaSoup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChipsandFireRoastedSalsa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChipsandFireRoastedSalsa.Designer.cs">
+      <DependentUpon>ChipsandFireRoastedSalsa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChowderBowlandLoaf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChowderBowlandLoaf.Designer.cs">
+      <DependentUpon>ChowderBowlandLoaf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrispyCalamari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrispyCalamari.Designer.cs">
+      <DependentUpon>CrispyCalamari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CrispyFriedArtichokes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrispyFriedArtichokes.Designer.cs">
+      <DependentUpon>CrispyFriedArtichokes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoldenBeetsandArugula.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoldenBeetsandArugula.Designer.cs">
+      <DependentUpon>GoldenBeetsandArugula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HoneySrirachaBrusselsSprouts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoneySrirachaBrusselsSprouts.Designer.cs">
+      <DependentUpon>HoneySrirachaBrusselsSprouts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HouseCaesar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HouseCaesar.Designer.cs">
+      <DependentUpon>HouseCaesar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HousemadeGuacamoleandChips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HousemadeGuacamoleandChips.Designer.cs">
+      <DependentUpon>HousemadeGuacamoleandChips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HouseSalad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HouseSalad.Designer.cs">
+      <DependentUpon>HouseSalad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HouseWedge.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HouseWedge.Designer.cs">
+      <DependentUpon>HouseWedge.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainTemplate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainTemplate.Designer.cs">
+      <DependentUpon>MainTemplate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MozzarellaSticks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MozzarellaSticks.Designer.cs">
+      <DependentUpon>MozzarellaSticks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PiranhaPaleAleChiliBowlandLoaf.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PiranhaPaleAleChiliBowlandLoaf.Designer.cs">
+      <DependentUpon>PiranhaPaleAleChiliBowlandLoaf.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PotatoSkinsPlatter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PotatoSkinsPlatter.Designer.cs">
+      <DependentUpon>PotatoSkinsPlatter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PremiumWingsSuacesandRubs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PremiumWingsSuacesandRubs.Designer.cs">
+      <DependentUpon>PremiumWingsSuacesandRubs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoastedPortobelloandAsparagus.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoastedPortobelloandAsparagus.Designer.cs">
+      <DependentUpon>RoastedPortobelloandAsparagus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RootBeerGlazedRibs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RootBeerGlazedRibs.Designer.cs">
+      <DependentUpon>RootBeerGlazedRibs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShareableAppetizers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShareableAppetizers.Designer.cs">
+      <DependentUpon>ShareableAppetizers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SantaFeSpringRolls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SantaFeSpringRolls.Designer.cs">
+      <DependentUpon>SantaFeSpringRolls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sliders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sliders.Designer.cs">
+      <DependentUpon>Sliders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Soups.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Soups.Designer.cs">
+      <DependentUpon>Soups.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpinachandArtichokeDip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpinachandArtichokeDip.Designer.cs">
+      <DependentUpon>SpinachandArtichokeDip.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SpinachStuffedMushrooms.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SpinachStuffedMushrooms.Designer.cs">
+      <DependentUpon>SpinachStuffedMushrooms.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SrirachaQuesoDips.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SrirachaQuesoDips.Designer.cs">
+      <DependentUpon>SrirachaQuesoDips.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TomatoandMozzarellaSalad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TomatoandMozzarellaSalad.Designer.cs">
+      <DependentUpon>TomatoandMozzarellaSalad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TuscanTomatoBisque.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TuscanTomatoBisque.Designer.cs">
+      <DependentUpon>TuscanTomatoBisque.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TwistedBLT.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TwistedBLT.Designer.cs">
+      <DependentUpon>TwistedBLT.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AhiPoke.resx">
+      <DependentUpon>AhiPoke.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BestBeginningsAppetizerCombo.resx">
+      <DependentUpon>BestBeginningsAppetizerCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BoneInWings.resx">
+      <DependentUpon>BoneInWings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BonelessWings.resx">
+      <DependentUpon>BonelessWings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChickenLettuceWraps.resx">
+      <DependentUpon>ChickenLettuceWraps.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChickenPotStickers.resx">
+      <DependentUpon>ChickenPotStickers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChickenTortillaSoup.resx">
+      <DependentUpon>ChickenTortillaSoup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChipsandFireRoastedSalsa.resx">
+      <DependentUpon>ChipsandFireRoastedSalsa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChowderBowlandLoaf.resx">
+      <DependentUpon>ChowderBowlandLoaf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrispyCalamari.resx">
+      <DependentUpon>CrispyCalamari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrispyFriedArtichokes.resx">
+      <DependentUpon>CrispyFriedArtichokes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoldenBeetsandArugula.resx">
+      <DependentUpon>GoldenBeetsandArugula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoneySrirachaBrusselsSprouts.resx">
+      <DependentUpon>HoneySrirachaBrusselsSprouts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HouseCaesar.resx">
+      <DependentUpon>HouseCaesar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HousemadeGuacamoleandChips.resx">
+      <DependentUpon>HousemadeGuacamoleandChips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HouseSalad.resx">
+      <DependentUpon>HouseSalad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HouseWedge.resx">
+      <DependentUpon>HouseWedge.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainTemplate.resx">
+      <DependentUpon>MainTemplate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MozzarellaSticks.resx">
+      <DependentUpon>MozzarellaSticks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PiranhaPaleAleChiliBowlandLoaf.resx">
+      <DependentUpon>PiranhaPaleAleChiliBowlandLoaf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PotatoSkinsPlatter.resx">
+      <DependentUpon>PotatoSkinsPlatter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PremiumWingsSuacesandRubs.resx">
+      <DependentUpon>PremiumWingsSuacesandRubs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="RoastedPortobelloandAsparagus.resx">
+      <DependentUpon>RoastedPortobelloandAsparagus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RootBeerGlazedRibs.resx">
+      <DependentUpon>RootBeerGlazedRibs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShareableAppetizers.resx">
+      <DependentUpon>ShareableAppetizers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SantaFeSpringRolls.resx">
+      <DependentUpon>SantaFeSpringRolls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sliders.resx">
+      <DependentUpon>Sliders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Soups.resx">
+      <DependentUpon>Soups.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpinachandArtichokeDip.resx">
+      <DependentUpon>SpinachandArtichokeDip.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SpinachStuffedMushrooms.resx">
+      <DependentUpon>SpinachStuffedMushrooms.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SrirachaQuesoDips.resx">
+      <DependentUpon>SrirachaQuesoDips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TomatoandMozzarellaSalad.resx">
+      <DependentUpon>TomatoandMozzarellaSalad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TuscanTomatoBisque.resx">
+      <DependentUpon>TuscanTomatoBisque.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TwistedBLT.resx">
+      <DependentUpon>TwistedBLT.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
