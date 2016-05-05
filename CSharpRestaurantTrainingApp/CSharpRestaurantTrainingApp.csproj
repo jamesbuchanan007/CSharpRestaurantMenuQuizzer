@@ -50,11 +50,47 @@
     <Compile Include="AhiPoke.Designer.cs">
       <DependentUpon>AhiPoke.cs</DependentUpon>
     </Compile>
+    <Compile Include="AllPortobelloVegetarianStyle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AllPortobelloVegetarianStyle.Designer.cs">
+      <DependentUpon>AllPortobelloVegetarianStyle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaconCheeseburger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaconCheeseburger.Designer.cs">
+      <DependentUpon>BaconCheeseburger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BaconGuacamoleDeluxe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BaconGuacamoleDeluxe.Designer.cs">
+      <DependentUpon>BaconGuacamoleDeluxe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBQChickenChoppedSalad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBQChickenChoppedSalad.Designer.cs">
+      <DependentUpon>BBQChickenChoppedSalad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BBQPulledPork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BBQPulledPork.Designer.cs">
+      <DependentUpon>BBQPulledPork.cs</DependentUpon>
+    </Compile>
     <Compile Include="BestBeginningsAppetizerCombo.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="BestBeginningsAppetizerCombo.Designer.cs">
       <DependentUpon>BestBeginningsAppetizerCombo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BlackandBleuHouse.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlackandBleuHouse.Designer.cs">
+      <DependentUpon>BlackandBleuHouse.cs</DependentUpon>
     </Compile>
     <Compile Include="BoneInWings.cs">
       <SubType>Form</SubType>
@@ -67,6 +103,30 @@
     </Compile>
     <Compile Include="BonelessWings.Designer.cs">
       <DependentUpon>BonelessWings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BrewhouseBurger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BrewhouseBurger.Designer.cs">
+      <DependentUpon>BrewhouseBurger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BurgersandSandwiches.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BurgersandSandwiches.Designer.cs">
+      <DependentUpon>BurgersandSandwiches.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CaesarSalad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaesarSalad.Designer.cs">
+      <DependentUpon>CaesarSalad.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CaliforniaChickenClub.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CaliforniaChickenClub.Designer.cs">
+      <DependentUpon>CaliforniaChickenClub.cs</DependentUpon>
     </Compile>
     <Compile Include="ChickenLettuceWraps.cs">
       <SubType>Form</SubType>
@@ -98,6 +158,12 @@
     <Compile Include="ChowderBowlandLoaf.Designer.cs">
       <DependentUpon>ChowderBowlandLoaf.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClassicBurger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClassicBurger.Designer.cs">
+      <DependentUpon>ClassicBurger.cs</DependentUpon>
+    </Compile>
     <Compile Include="CrispyCalamari.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -110,11 +176,35 @@
     <Compile Include="CrispyFriedArtichokes.Designer.cs">
       <DependentUpon>CrispyFriedArtichokes.cs</DependentUpon>
     </Compile>
+    <Compile Include="CrispyJalapenoBurger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CrispyJalapenoBurger.Designer.cs">
+      <DependentUpon>CrispyJalapenoBurger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DerbyStyleChickenCobb.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DerbyStyleChickenCobb.Designer.cs">
+      <DependentUpon>DerbyStyleChickenCobb.cs</DependentUpon>
+    </Compile>
     <Compile Include="GoldenBeetsandArugula.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="GoldenBeetsandArugula.Designer.cs">
       <DependentUpon>GoldenBeetsandArugula.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HickoryBrisketandBaconBurger.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HickoryBrisketandBaconBurger.Designer.cs">
+      <DependentUpon>HickoryBrisketandBaconBurger.cs</DependentUpon>
+    </Compile>
+    <Compile Include="HoneyCrispChickenSalad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="HoneyCrispChickenSalad.Designer.cs">
+      <DependentUpon>HoneyCrispChickenSalad.cs</DependentUpon>
     </Compile>
     <Compile Include="HoneySrirachaBrusselsSprouts.cs">
       <SubType>Form</SubType>
@@ -146,6 +236,12 @@
     <Compile Include="HouseWedge.Designer.cs">
       <DependentUpon>HouseWedge.cs</DependentUpon>
     </Compile>
+    <Compile Include="MahiMahiTacos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MahiMahiTacos.Designer.cs">
+      <DependentUpon>MahiMahiTacos.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainTemplate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -164,6 +260,12 @@
     <Compile Include="PiranhaPaleAleChiliBowlandLoaf.Designer.cs">
       <DependentUpon>PiranhaPaleAleChiliBowlandLoaf.cs</DependentUpon>
     </Compile>
+    <Compile Include="PortobelloSwiss.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PortobelloSwiss.Designer.cs">
+      <DependentUpon>PortobelloSwiss.cs</DependentUpon>
+    </Compile>
     <Compile Include="PotatoSkinsPlatter.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +280,12 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RoastBeefDip.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RoastBeefDip.Designer.cs">
+      <DependentUpon>RoastBeefDip.cs</DependentUpon>
+    </Compile>
     <Compile Include="RoastedPortobelloandAsparagus.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,6 +298,12 @@
     <Compile Include="RootBeerGlazedRibs.Designer.cs">
       <DependentUpon>RootBeerGlazedRibs.cs</DependentUpon>
     </Compile>
+    <Compile Include="SantaFeSalad.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SantaFeSalad.Designer.cs">
+      <DependentUpon>SantaFeSalad.cs</DependentUpon>
+    </Compile>
     <Compile Include="ShareableAppetizers.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -201,6 +315,12 @@
     </Compile>
     <Compile Include="SantaFeSpringRolls.Designer.cs">
       <DependentUpon>SantaFeSpringRolls.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShrimpTacos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShrimpTacos.Designer.cs">
+      <DependentUpon>ShrimpTacos.cs</DependentUpon>
     </Compile>
     <Compile Include="Sliders.cs">
       <SubType>Form</SubType>
@@ -232,6 +352,12 @@
     <Compile Include="SrirachaQuesoDips.Designer.cs">
       <DependentUpon>SrirachaQuesoDips.cs</DependentUpon>
     </Compile>
+    <Compile Include="TheTripleDecker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TheTripleDecker.Designer.cs">
+      <DependentUpon>TheTripleDecker.cs</DependentUpon>
+    </Compile>
     <Compile Include="TomatoandMozzarellaSalad.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -253,14 +379,44 @@
     <EmbeddedResource Include="AhiPoke.resx">
       <DependentUpon>AhiPoke.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="AllPortobelloVegetarianStyle.resx">
+      <DependentUpon>AllPortobelloVegetarianStyle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaconCheeseburger.resx">
+      <DependentUpon>BaconCheeseburger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BaconGuacamoleDeluxe.resx">
+      <DependentUpon>BaconGuacamoleDeluxe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBQChickenChoppedSalad.resx">
+      <DependentUpon>BBQChickenChoppedSalad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BBQPulledPork.resx">
+      <DependentUpon>BBQPulledPork.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="BestBeginningsAppetizerCombo.resx">
       <DependentUpon>BestBeginningsAppetizerCombo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BlackandBleuHouse.resx">
+      <DependentUpon>BlackandBleuHouse.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BoneInWings.resx">
       <DependentUpon>BoneInWings.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="BonelessWings.resx">
       <DependentUpon>BonelessWings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BrewhouseBurger.resx">
+      <DependentUpon>BrewhouseBurger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BurgersandSandwiches.resx">
+      <DependentUpon>BurgersandSandwiches.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaesarSalad.resx">
+      <DependentUpon>CaesarSalad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CaliforniaChickenClub.resx">
+      <DependentUpon>CaliforniaChickenClub.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ChickenLettuceWraps.resx">
       <DependentUpon>ChickenLettuceWraps.cs</DependentUpon>
@@ -277,14 +433,29 @@
     <EmbeddedResource Include="ChowderBowlandLoaf.resx">
       <DependentUpon>ChowderBowlandLoaf.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ClassicBurger.resx">
+      <DependentUpon>ClassicBurger.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="CrispyCalamari.resx">
       <DependentUpon>CrispyCalamari.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CrispyFriedArtichokes.resx">
       <DependentUpon>CrispyFriedArtichokes.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="CrispyJalapenoBurger.resx">
+      <DependentUpon>CrispyJalapenoBurger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DerbyStyleChickenCobb.resx">
+      <DependentUpon>DerbyStyleChickenCobb.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="GoldenBeetsandArugula.resx">
       <DependentUpon>GoldenBeetsandArugula.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HickoryBrisketandBaconBurger.resx">
+      <DependentUpon>HickoryBrisketandBaconBurger.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="HoneyCrispChickenSalad.resx">
+      <DependentUpon>HoneyCrispChickenSalad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="HoneySrirachaBrusselsSprouts.resx">
       <DependentUpon>HoneySrirachaBrusselsSprouts.cs</DependentUpon>
@@ -301,6 +472,9 @@
     <EmbeddedResource Include="HouseWedge.resx">
       <DependentUpon>HouseWedge.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="MahiMahiTacos.resx">
+      <DependentUpon>MahiMahiTacos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MainTemplate.resx">
       <DependentUpon>MainTemplate.cs</DependentUpon>
     </EmbeddedResource>
@@ -309,6 +483,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="PiranhaPaleAleChiliBowlandLoaf.resx">
       <DependentUpon>PiranhaPaleAleChiliBowlandLoaf.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PortobelloSwiss.resx">
+      <DependentUpon>PortobelloSwiss.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PotatoSkinsPlatter.resx">
       <DependentUpon>PotatoSkinsPlatter.cs</DependentUpon>
@@ -325,17 +502,26 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="RoastBeefDip.resx">
+      <DependentUpon>RoastBeefDip.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="RoastedPortobelloandAsparagus.resx">
       <DependentUpon>RoastedPortobelloandAsparagus.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="RootBeerGlazedRibs.resx">
       <DependentUpon>RootBeerGlazedRibs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="SantaFeSalad.resx">
+      <DependentUpon>SantaFeSalad.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ShareableAppetizers.resx">
       <DependentUpon>ShareableAppetizers.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SantaFeSpringRolls.resx">
       <DependentUpon>SantaFeSpringRolls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShrimpTacos.resx">
+      <DependentUpon>ShrimpTacos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Sliders.resx">
       <DependentUpon>Sliders.cs</DependentUpon>
@@ -351,6 +537,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SrirachaQuesoDips.resx">
       <DependentUpon>SrirachaQuesoDips.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TheTripleDecker.resx">
+      <DependentUpon>TheTripleDecker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="TomatoandMozzarellaSalad.resx">
       <DependentUpon>TomatoandMozzarellaSalad.cs</DependentUpon>

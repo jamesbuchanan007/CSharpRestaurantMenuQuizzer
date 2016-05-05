@@ -54,7 +54,7 @@
             this.btnBack.Location = new System.Drawing.Point(172, 269);
             this.btnBack.Name = "btnBack";
             this.btnBack.Size = new System.Drawing.Size(75, 23);
-            this.btnBack.TabIndex = 55;
+            this.btnBack.TabIndex = 5;
             this.btnBack.Text = "Back";
             this.btnBack.UseVisualStyleBackColor = false;
             this.btnBack.Click += new System.EventHandler(this.btnBack_Click);
@@ -77,7 +77,7 @@
             this.btnNextItem.Location = new System.Drawing.Point(253, 269);
             this.btnNextItem.Name = "btnNextItem";
             this.btnNextItem.Size = new System.Drawing.Size(75, 23);
-            this.btnNextItem.TabIndex = 53;
+            this.btnNextItem.TabIndex = 4;
             this.btnNextItem.Text = "Next Item";
             this.btnNextItem.UseVisualStyleBackColor = false;
             this.btnNextItem.Click += new System.EventHandler(this.btnNextItem_Click);
@@ -90,7 +90,7 @@
             this.btnHome.Location = new System.Drawing.Point(16, 269);
             this.btnHome.Name = "btnHome";
             this.btnHome.Size = new System.Drawing.Size(75, 23);
-            this.btnHome.TabIndex = 52;
+            this.btnHome.TabIndex = 6;
             this.btnHome.Text = "Main Screen";
             this.btnHome.UseVisualStyleBackColor = false;
             this.btnHome.Click += new System.EventHandler(this.btnHome_Click);
@@ -104,7 +104,7 @@
             this.btnExitProgram.Location = new System.Drawing.Point(412, 269);
             this.btnExitProgram.Name = "btnExitProgram";
             this.btnExitProgram.Size = new System.Drawing.Size(75, 23);
-            this.btnExitProgram.TabIndex = 51;
+            this.btnExitProgram.TabIndex = 7;
             this.btnExitProgram.Text = "Exit Program";
             this.btnExitProgram.UseVisualStyleBackColor = false;
             this.btnExitProgram.Click += new System.EventHandler(this.btnExitProgram_Click);
@@ -156,7 +156,7 @@
             this.button3.Location = new System.Drawing.Point(413, 135);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 44;
+            this.button3.TabIndex = 3;
             this.button3.Text = "Show/Hide";
             this.button3.UseVisualStyleBackColor = false;
             this.button3.Click += new System.EventHandler(this.button3_Click);
@@ -180,7 +180,7 @@
             this.button2.Location = new System.Drawing.Point(413, 76);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 42;
+            this.button2.TabIndex = 2;
             this.button2.Text = "Show/Hide";
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
@@ -204,7 +204,7 @@
             this.button1.Location = new System.Drawing.Point(413, 40);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 40;
+            this.button1.TabIndex = 1;
             this.button1.Text = "Show/Hide";
             this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);

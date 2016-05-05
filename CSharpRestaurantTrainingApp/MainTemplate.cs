@@ -58,5 +58,29 @@ namespace CSharpRestaurantTrainingApp
             new frmRoastedPortobelloandAsparagus().Show();
         }
 
+        private void btnEntreSalads_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new frmBBQChickenChoppedSalad().Show();
+        }
+
+        private void btnLoadedBurgers_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new frmBurgersandSandwiches().Show();
+        }
+
+        private void btnBrewhouseBurgers_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new frmBlackandBleuHouse().Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            new frmTheTripleDecker().Show();
+        }
+
     }
 }

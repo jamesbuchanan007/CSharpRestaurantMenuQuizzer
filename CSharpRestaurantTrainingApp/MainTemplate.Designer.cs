@@ -65,7 +65,7 @@
             this.btnShareableAppetizers.Location = new System.Drawing.Point(76, 47);
             this.btnShareableAppetizers.Name = "btnShareableAppetizers";
             this.btnShareableAppetizers.Size = new System.Drawing.Size(226, 28);
-            this.btnShareableAppetizers.TabIndex = 2;
+            this.btnShareableAppetizers.TabIndex = 1;
             this.btnShareableAppetizers.Text = "Shareable Appetizers";
             this.btnShareableAppetizers.UseVisualStyleBackColor = false;
             this.btnShareableAppetizers.Click += new System.EventHandler(this.btnShareableAppetizers_Click);
@@ -80,7 +80,7 @@
             this.btnPremiumWingsSaucesRubs.Location = new System.Drawing.Point(76, 81);
             this.btnPremiumWingsSaucesRubs.Name = "btnPremiumWingsSaucesRubs";
             this.btnPremiumWingsSaucesRubs.Size = new System.Drawing.Size(226, 28);
-            this.btnPremiumWingsSaucesRubs.TabIndex = 3;
+            this.btnPremiumWingsSaucesRubs.TabIndex = 2;
             this.btnPremiumWingsSaucesRubs.Text = "Premium Wings, Sauces and Rubs";
             this.btnPremiumWingsSaucesRubs.UseVisualStyleBackColor = false;
             this.btnPremiumWingsSaucesRubs.Click += new System.EventHandler(this.btnPremiumWingsSaucesRubs_Click);
@@ -95,7 +95,7 @@
             this.btnSnacksSmallBitesandDips.Location = new System.Drawing.Point(76, 115);
             this.btnSnacksSmallBitesandDips.Name = "btnSnacksSmallBitesandDips";
             this.btnSnacksSmallBitesandDips.Size = new System.Drawing.Size(226, 28);
-            this.btnSnacksSmallBitesandDips.TabIndex = 4;
+            this.btnSnacksSmallBitesandDips.TabIndex = 3;
             this.btnSnacksSmallBitesandDips.Text = "Snacks, Small Bites and Dips";
             this.btnSnacksSmallBitesandDips.UseVisualStyleBackColor = false;
             this.btnSnacksSmallBitesandDips.Click += new System.EventHandler(this.btnSnacksSmallBitesandDips_Click);
@@ -110,7 +110,7 @@
             this.btnSoups.Location = new System.Drawing.Point(76, 149);
             this.btnSoups.Name = "btnSoups";
             this.btnSoups.Size = new System.Drawing.Size(226, 28);
-            this.btnSoups.TabIndex = 5;
+            this.btnSoups.TabIndex = 4;
             this.btnSoups.Text = "Soups";
             this.btnSoups.UseVisualStyleBackColor = false;
             this.btnSoups.Click += new System.EventHandler(this.btnSoups_Click);
@@ -125,7 +125,7 @@
             this.btnSmallSalads.Location = new System.Drawing.Point(76, 183);
             this.btnSmallSalads.Name = "btnSmallSalads";
             this.btnSmallSalads.Size = new System.Drawing.Size(226, 28);
-            this.btnSmallSalads.TabIndex = 6;
+            this.btnSmallSalads.TabIndex = 5;
             this.btnSmallSalads.Text = "Small Salads";
             this.btnSmallSalads.UseVisualStyleBackColor = false;
             this.btnSmallSalads.Click += new System.EventHandler(this.btnSmallSalads_Click);
@@ -140,7 +140,7 @@
             this.btnStarterSalads.Location = new System.Drawing.Point(76, 217);
             this.btnStarterSalads.Name = "btnStarterSalads";
             this.btnStarterSalads.Size = new System.Drawing.Size(226, 28);
-            this.btnStarterSalads.TabIndex = 7;
+            this.btnStarterSalads.TabIndex = 6;
             this.btnStarterSalads.Text = "Starter Salads";
             this.btnStarterSalads.UseVisualStyleBackColor = false;
             this.btnStarterSalads.Click += new System.EventHandler(this.btnStarterSalads_Click);
@@ -155,9 +155,10 @@
             this.btnEntreSalads.Location = new System.Drawing.Point(76, 251);
             this.btnEntreSalads.Name = "btnEntreSalads";
             this.btnEntreSalads.Size = new System.Drawing.Size(226, 28);
-            this.btnEntreSalads.TabIndex = 8;
+            this.btnEntreSalads.TabIndex = 7;
             this.btnEntreSalads.Text = "Entree Salads";
             this.btnEntreSalads.UseVisualStyleBackColor = false;
+            this.btnEntreSalads.Click += new System.EventHandler(this.btnEntreSalads_Click);
             // 
             // btnLoadedBurgers
             // 
@@ -169,9 +170,10 @@
             this.btnLoadedBurgers.Location = new System.Drawing.Point(76, 285);
             this.btnLoadedBurgers.Name = "btnLoadedBurgers";
             this.btnLoadedBurgers.Size = new System.Drawing.Size(226, 28);
-            this.btnLoadedBurgers.TabIndex = 9;
+            this.btnLoadedBurgers.TabIndex = 8;
             this.btnLoadedBurgers.Text = "Loaded Burgers";
             this.btnLoadedBurgers.UseVisualStyleBackColor = false;
+            this.btnLoadedBurgers.Click += new System.EventHandler(this.btnLoadedBurgers_Click);
             // 
             // btnBrewhouseBurgers
             // 
@@ -183,9 +185,10 @@
             this.btnBrewhouseBurgers.Location = new System.Drawing.Point(76, 319);
             this.btnBrewhouseBurgers.Name = "btnBrewhouseBurgers";
             this.btnBrewhouseBurgers.Size = new System.Drawing.Size(226, 28);
-            this.btnBrewhouseBurgers.TabIndex = 10;
+            this.btnBrewhouseBurgers.TabIndex = 9;
             this.btnBrewhouseBurgers.Text = "Brewhouse Burgers";
             this.btnBrewhouseBurgers.UseVisualStyleBackColor = false;
+            this.btnBrewhouseBurgers.Click += new System.EventHandler(this.btnBrewhouseBurgers_Click);
             // 
             // btnExit
             // 
@@ -210,9 +213,10 @@
             this.button1.Location = new System.Drawing.Point(76, 353);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(226, 28);
-            this.button1.TabIndex = 12;
+            this.button1.TabIndex = 10;
             this.button1.Text = "Sandwiches and Tacos";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // frmHome
             // 
